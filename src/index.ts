@@ -1,6 +1,6 @@
 import { createServer } from 'http'
 import app from './app';
-import { info } from './util/logger';
+import { info } from './utils/logger';
 
 (async () => {
   try {

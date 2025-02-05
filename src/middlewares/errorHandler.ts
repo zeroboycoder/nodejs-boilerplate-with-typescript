@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import { httpError } from '../../types'
-import { cleanObj } from '../util'
+import { cleanObj } from '../utils'
 
 export const errorHandler = (error: httpError, req: Request, res: Response) => {
   const statusCode = error.statusCode || 400;
